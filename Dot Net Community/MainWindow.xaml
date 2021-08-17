@@ -7,20 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="1024" Width="1200">
     <Window.Resources>
-        <Style TargetType="ListBoxItem" x:Key="cardsListBoxItem">
-            <Setter Property="Margin" Value="4"/>
-            <Setter Property="Height" Value="38"/>
-            <Setter Property="Cursor" Value="Hand"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="ListBoxItem">
-                        <Border Background="{TemplateBinding Background}" 
-                                CornerRadius="3" Height="{TemplateBinding Height}"
-                                />
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
+        
     </Window.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
